@@ -1,11 +1,25 @@
 const container = document.querySelector("#container");
+const div1 = document.createElement("div");
+container.appendChild(div1);
+div1.classList.add("box");
 
-for (i = 0; i < 100; i++) {
+for (i = 0; i < 559; i++) {
 const div1 = document.createElement("div");
 container.appendChild(div1);
 div1.classList.add("box");
 
 }
+
+// function draw() {
+//     document.querySelector("div1");
+//     div1.style.
+// }
+
+// adding the clear canvas button to the bottom 
+// of the game border, will finish later.
+// const buttonConsole = document.createElement("div");
+// buttonConsole.toggle("clearCanvas");
+
 
 // const div2 = document.createElement("div");
 // container.appendChild(div2);
