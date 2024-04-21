@@ -15,9 +15,9 @@ body{
 
 .box {
     display: flex;
-    height: 125px;
-    width: 125px;
-    transition-duration: 0.7s;
+    height: 50px;
+    width: 50px;
+    transition-duration: 0.4s;
 }
 
 .box:hover{
