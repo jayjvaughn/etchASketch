@@ -3,6 +3,11 @@ const div1 = document.createElement("div");
 container.appendChild(div1);
 div1.classList.add("box");
 
+function draw() {
+    document.querySelector("div");
+    div1.style.backgroundColor = "black";
+}
+
 for (i = 0; i < 559; i++) {
 const div1 = document.createElement("div");
 container.appendChild(div1);
@@ -10,10 +15,9 @@ div1.classList.add("box");
 
 }
 
-// function draw() {
-//     document.querySelector("div1");
-//     div1.style.
-// }
+
+
+div1.addEventListener("click", draw);
 
 // adding the clear canvas button to the bottom 
 // of the game border, will finish later.
