@@ -1,23 +1,34 @@
 const container = document.querySelector("#container");
+const clearCanvasBtn = document.querySelector("#clearCanvasBtn");
+
+for (i = 0; i < 560; i++) {
 const div1 = document.createElement("div");
 container.appendChild(div1);
 div1.classList.add("box");
-
-function draw() {
-    document.querySelector("div");
-    div1.style.backgroundColor = "black";
-}
-
-for (i = 0; i < 559; i++) {
-const div1 = document.createElement("div");
-container.appendChild(div1);
-div1.classList.add("box");
-
+div1.addEventListener("mousemove", () => {div1.style.backgroundColor = "black"} );
+clearCanvasBtn.addEventListener("click",() => {div1.style.backgroundColor = "white"});
 }
 
 
 
-div1.addEventListener("click", draw);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// div1.addEventListener("click", draw);
 
 // adding the clear canvas button to the bottom 
 // of the game border, will finish later.

@@ -26,7 +26,7 @@ body{
     cursor: pointer;
 }
 
-#clearCanvas {
+#clearCanvasBtn {
  margin: 10px;
  padding: 20px;
  font-size: 20px;
@@ -37,11 +37,11 @@ body{
  border-radius: 8px;
  box-shadow: 0 10px #dfdfdf;
 }
-#clearCanvas:hover{
+#clearCanvasBtn:hover{
     background-color: #9f0000;
 }
 
-#clearCanvas:active {
+#clearCanvasBtn:active {
 background-color: #9f0000;
 box-shadow: 0 5px #dfdfdf;
 transform: translateY(3px);
