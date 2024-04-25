@@ -4,22 +4,31 @@ body{
     align-items: center;
 }
 #container {
-    border: 10px solid red;
-    border-top: 25px solid red;
-    border-bottom: 50px solid red;
+    border: 15px solid red;
+    /* border-top: 10px solid red;
+    border-bottom: 10px solid red; */
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     height: 500px;
-    width: 700px;
+    width: 500px;
 
 }
 
+/* match with v1 code */
 .box {
     display: flex;
-    height: 25px;
-    width: 25px;
+    flex-basis: auto;
+    height: 20px;
+    width: 20px;
     transition-duration: 0.4s;
 }
+
+/* match with v2 code, will build on later */
+/* .box {
+    display: flex; 
+    flex-basis: 1;
+    transition-duration: 0.4s;
+} */
 
 .box:hover{
     background-color: red;
